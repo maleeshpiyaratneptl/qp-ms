@@ -1,0 +1,31 @@
+{
+  "_comment": "QuadPay Test Suite : Confirguration V0.1",
+  "projectId": "vbsn9z",
+  "defaultCommandTimeout": 20000,
+  "theme": "dark",
+  "refreshVSToken" : "vsts-npm-auth -config .npmrc",
+  "chromeWebSecurity": false,
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "env": {
+    "url"   : " https://customer-ut.quadpay.com ",
+"REGISTRY" :" https://registry.npmjs.org",
+    "BASE_URL": "https://customer-ut.quadpay.com",
+    "VALID_EMAIL": "sudaraka+011@rayonate.com",
+    "EXISTING_EMAIL": "sudaraka+056@rayonate.com",
+    "customer_email_mp": "sudaraka+056@rayonate.com",
+    "merchant_base_url": "https://merchant-ut.quadpay.com/login",
+    "merchant_active_email": "gmsudaraka@gmail.com",
+    "merchant_active_password": "vCfnGD8gJpG3idhAMuvs",
+    "NON_EXISTING_EMAIL": "nonexitmail@rayonate.com",
+    "VIEWPORT": "macbook-15",
+    "VALID_MOBILE_NUMBER": "7012489442",
+    "EXISTING_MOBILE_NUMBER": "7012489442",
+    "MOBILE_NUMBER_FOR_EARLY_PAYMENT": "7012489442",
+    "SMS_SERV_EP_URL": "https://smstibo.com/free-virtual-mobile-number-usa-p-17012489442",
+    "WAIT_FOR_VERIFICATIONCODE": 8500,
+    "EXPIRY_TIME_VERIFICATIONCODE": 301000,
+    "SMS_SERVICE_URL": "https://smstibo.com/free-virtual-mobile-number-usa-p-17012489442",
+    "reporter": "mochawesome"
+ 
+  }
+}
